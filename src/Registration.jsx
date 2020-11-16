@@ -32,6 +32,7 @@ const submit =() => {
                             setMode(!dark)}} />
                         <span class="slider round"></span>
                     </label>
+            <div className="cont">
             <h1 className="brand">HiTech</h1>
             <div className="register-container">
                 <h2>Registration Form</h2>
@@ -54,6 +55,7 @@ const submit =() => {
                     }}/>
                     <button className="btn-login" onClick={submit}>Register</button>
                 </form>
+                </div>
             </div>
             </div>
         </>
